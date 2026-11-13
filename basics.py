@@ -27,4 +27,14 @@ if(x>y):
 else:
     print("y is greater")
 
-# Strings
+# functions
+    # case sensitive
+name='harry'
+print(len(name))
+print(name.endswith("rRy")) 
+print(name.startswith("har"))
+print(name.capitalize())
+
+Name= "i dont love blu"
+print(Name.replace('dont','do'))
+
