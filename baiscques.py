@@ -17,5 +17,30 @@ print(a.find("  ")) #finds the index of double space
 
 # escape sequence
 print("harry is a good boy\n he is a good\n\t student")
+
+# spam comment
+p1="make a lot of money"
+p2="buy now"
+p3="subscribe this"
+p4="click this"
+
+message=input("enter the message: ")
+if(p1 in message or p2 in message or p3 in message or p4 in message):
+    print("spam")
+    
+else:
+    print("not spam")  
+    
+#username contain less than 10 character or not
+
+username=input("enter the username: ")
+if(len(username)<10):
+    print("username contain less than 10 character")
+    
+elif(len(username)>10):
+    print("username contain more than 10 character")    
+    
+else:
+   print("username contain 10 character");    
          
             
